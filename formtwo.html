@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Event Registration</h1>
+    
+    <form>
+
+        <label for="name">Name :</label>
+        <input type="text" id="name" name="name">
+        <br/>
+        <br/>
+        <label for="email">Email ID :</label>
+        <input type="text" id="email" name="email">
+        <br/>
+        <br/>
+        <label for="phone">Phone no :</label>
+        <input type="tel" id="phone" name="phone">
+        <br/>
+        <br/>
+        <label for="file">Resume</label>
+        <input type="file" id="file">
+
+
+        <br/>
+        <br/>
+        <label for="counter">Experience(in year)</label>
+        <input type="number" name="counter" id="counter" min="0" max = "50" >
+    </form>    
+    
+    <br/>
+    <br/>
+    <fieldset>
+            <legend>Skills</legend>
+
+            
+            <input type="checkbox" name="checkbox" id="checkbox1">
+            <label for="checkbox1">cricket</label>
+
+            
+            <input type="checkbox" name="checkbox" id="checkbox1">
+            <label for="checkbox2">Football</label>
+
+            
+            <input type="checkbox" name="checkbox" id="checkbox1">
+            <label for="checkbox3">Hockey</label>
+        </fieldset>
+
+        <br/>
+        <br/>
+        <label for="educationType">Education : </label>
+        <select name="educationType" id="educationType">
+            <option value="a">Aashish</option>
+            <option value="a">Don</option>
+            <option value="a">Moti</option>
+            <option value="a">Patlu</option>
+        </select>
+        
+        <br/>
+        <br/>
+        <fieldset>
+            <legend>Avalability</legend>
+
+            <label for="radio">Full-time</label>
+            <input type="radio" name="radio" id="radio">
+
+            <label for="radi2">Half-time</label>
+            <input type="radio" name="radio" id="radio2">
+        </fieldset>
+
+        <br/>
+        <br/>
+        <label for="textarea1">Comments</label>
+        <br/>
+        <textarea name="textarea " id="textarea1" cols="30" rows="10"></textarea>
+        <br/>
+        <input type="submit" value="Register">
+
+</body>
+</html>
